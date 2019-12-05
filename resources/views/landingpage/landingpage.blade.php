@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Creative - Start Bootstrap Theme</title>
+  <title>Relief Logistic</title>
 
   <!-- Font Awesome Icons -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -74,9 +74,14 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8 text-center">
-          <h2 class="text-white mt-0">We've got what you need!</h2>
+          <h2 class="text-white mt-0">Tentang Relo</h2>
           <hr class="divider light my-4">
-          <p class="text-white-50 mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! Choose one of our open source, free to download, and easy to use themes! No strings attached!</p>
+          <p class="text-white-50 mb-4">Relo (singkatan dari Relief Logistics) merupakan sebuah aplikasi berbasis android dan web 
+            yang menghubungkan penyumbang barang dengan komunitas peduli bencana alam
+            untuk membantu korban bencana alam memenuhi kebutuhan barang mereka.
+            <br><br>
+            Relo juga merupakan aplikasi pengembangan yang bersifat non-profit dengan fokus
+            membantu percepatan pembangunan wilayah terkena bencana alam.</p>
           <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
         </div>
       </div>
@@ -210,34 +215,12 @@
   <!-- Call to Action Section -->
   <section class="page-section bg-dark text-white">
     <div class="container text-center">
-      <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
+      <h2 class="mb-4">Relo on Mobile!</h2>
       <a class="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Download Now!</a>
     </div>
   </section>
 
-  <!-- Contact Section -->
-  <section class="page-section" id="contact">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
-          <h2 class="mt-0">Let's Get In Touch!</h2>
-          <hr class="divider my-4">
-          <p class="text-muted mb-5">Ready to start your next project with us? Give us a call or send us an email and we will get back to you as soon as possible!</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
-          <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
-          <div>+1 (202) 555-0149</div>
-        </div>
-        <div class="col-lg-4 mr-auto text-center">
-          <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
-          <!-- Make sure to change the email address in anchor text AND the link below! -->
-          <a class="d-block" href="mailto:contact@yourwebsite.com">contact@yourwebsite.com</a>
-        </div>
-      </div>
-    </div>
-  </section>
+ @yield('contact')
 
   <!-- Footer -->
   <footer class="bg-light py-5">
