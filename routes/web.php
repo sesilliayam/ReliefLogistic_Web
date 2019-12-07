@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('landingpage/landingpage');
 });
+
+// Routing Views
+Route::get('/login', function () {
+    return view('loginregister/login');
+});
