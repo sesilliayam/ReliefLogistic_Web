@@ -11,19 +11,19 @@
             <a class="nav-link js-scroll-trigger" href="#about">Tentang Kami</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#services">Aktivitas Kami</a>
+            <a class="nav-link js-scroll-trigger" href="#services">Aktivitas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#event">Event</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#portfolio">Komunitas</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#">Event</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#">Login</a>
+          <a class="nav-link js-scroll-trigger" href="#">Login</a>
           </li>
           {{-- notice there is a symbol below this comment --}}
           |

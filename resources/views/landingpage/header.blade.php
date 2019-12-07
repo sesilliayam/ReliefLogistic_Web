@@ -7,8 +7,8 @@
               <hr class="divider my-4">
             </div>
             <div class="col-lg-8 align-self-baseline">
-              <p class="text-white-75 font-weight-light mb-5">Lebih dari 1000 barang telah kami distribusikan bersama dengan Komunitas Peduli Alam yang telah menjadi mitra kami. Bergabunglah menjadi #SahabatRelo sekarang sebagai gerakan kecil yang sangat berarti untuk selamatkan bumi dan manusia!</p>
-              <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+              <p class="text-white-75 font-weight-light mb-5">Lebih dari 1000 pohon telah kami tanam bersama 20 komunitas yang tersebat di Indonesia. Bergabunglah menjadi #SahabatAlam sekarang sebagai gerakan kecil yang sangat berarti untuk selamatkan bumi dan manusia!</p>
+              <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Pelajari Selengkapnya</a>
             </div>
           </div>
         </div>
