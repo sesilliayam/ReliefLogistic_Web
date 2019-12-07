@@ -21,7 +21,8 @@
   <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
   <!-- Theme CSS - Includes Bootstrap -->
-  <link href="css/creative.min.css" rel="stylesheet">
+  {{-- <link href="css/creative.min.css" rel="stylesheet"> --}}
+  <link href="css/mycss.css" rel="stylesheet">
 
 </head>
 
@@ -30,7 +31,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Relief Logistic</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Sahabat Alam</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -58,7 +59,7 @@
     <div class="container h-100">
       <div class="row h-100 align-items-center justify-content-center text-center">
         <div class="col-lg-10 align-self-end">
-          <h1 class="text-uppercase text-white font-weight-bold">Selamatkan Bumi<br> Selamatkan Manusia</h1>
+          <h1 class="text-uppercase text-white font-weight-bold">Peduli Alam<br>Peduli Masa Depan</h1>
           <hr class="divider my-4">
         </div>
         <div class="col-lg-8 align-self-baseline">

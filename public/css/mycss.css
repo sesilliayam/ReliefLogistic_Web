@@ -12,7 +12,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
-:root {
+ :root {
     --blue: #007bff;
     --indigo: #6610f2;
     --purple: #6f42c1;
@@ -2554,8 +2554,8 @@ fieldset:disabled a.btn {
 
 .btn-warning:hover {
     color: #212529;
-    background-color: #e0a800;
-    border-color: #d39e00;
+    background-color: #00d435;
+    border-color: #00d435;
 }
 
 .btn-warning:focus,
@@ -2574,8 +2574,8 @@ fieldset:disabled a.btn {
 .btn-warning:not(:disabled):not(.disabled).active,
 .show>.btn-warning.dropdown-toggle {
     color: #212529;
-    background-color: #d39e00;
-    border-color: #c69500;
+    background-color: #019225;
+    border-color: #019225;
 }
 
 .btn-warning:not(:disabled):not(.disabled):active:focus,
@@ -6493,7 +6493,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-    background-color: #ff9205 !important;
+    background-color: #00d345 !important;
 }
 
 a.bg-primary:hover,
@@ -9964,7 +9964,8 @@ hr.light {
 header.masthead {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 72px);
-    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../img/bg-masthead.jpg");
+    /* gambar background di sini */
+    background: linear-gradient(to bottom, rgba(20, 19, 18, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%), url("../img/home_bg.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -10017,7 +10018,7 @@ header.masthead h1 {
     text-align: center;
     opacity: 0;
     color: #fff;
-    background: rgba(244, 98, 58, 0.9);
+    background: rgba(50, 190, 45, 0.9);
     transition: opacity 0.25s ease;
     text-align: center;
 }
