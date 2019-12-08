@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8 text-center">
-          <h2 class="mt-0">Let's Get In Touch!</h2>
+          <h2 class="mt-0">Kontak Personal</h2>
           <hr class="divider my-4">
           <p class="text-muted mb-5">Ingin mengenal kami lebih dekat? Silahkan hubungi kami melalui telefon, whatsapp, atau email. Kami akan menghubungimu secepatnya!</p>
         </div>

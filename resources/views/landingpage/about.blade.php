@@ -9,7 +9,7 @@
                 <br><br>
                 Sahabat Alam merupakan organisasi non-profit dengan fokus
                 mencegah percepatan pemanasan global.</p>
-              <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
+              <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Aktivitas Kami</a>
             </div>
           </div>
         </div>

@@ -1,5 +1,5 @@
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+<nav class="navbar fixed-top py-3" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">Sahabat Alam</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,17 +23,14 @@
             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
           </li>
           <li class="nav-item">
-            {{-- Pop Up Form with Data Toggle and Modal --}}
-            <a class="nav-link js-scroll-trigger" href="#" data-toggle="modal" data-target="#loginModal">Masuk</a>
+          <a class="nav-link js-scroll-trigger" href="#">Login</a>
           </li>
           {{-- notice there is a symbol below this comment --}}
           |
           <li class="nav-item">
-            {{-- Pop Up Form with Data Toggle and Modal --}}
-            <a class="nav-link js-scroll-trigger" href="#" data-toggle="modal" data-target="#registerModal">Daftar</a>
+            <a class="nav-link js-scroll-trigger" href="#">Register</a>
           </li>
         </ul>
       </div>
     </div>
-
   </nav>
