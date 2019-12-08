@@ -26,7 +26,7 @@
         <div class="text-center mb-3">
           <button type="button" class="btn btn-primary btn-xl js-scroll-trigger">Masuk</button>
         </div>
-        <p class="font-small dark-grey-text text-right d-flex justify-content-center mb-3 pt-2"> or Atau masuk dengan:</p>
+        <p class="font-small dark-grey-text text-right d-flex justify-content-center mb-3 pt-2">Atau masuk dengan:</p>
 
         <div class="row my-3 d-flex justify-content-center">
           <!--Facebook-->
