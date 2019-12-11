@@ -9976,6 +9976,17 @@ header.masthead {
     background-size: cover;
 }
 
+header.event {
+    padding-top: 6rem;
+    /* padding-bottom: calc(10rem - 72px); */
+    /* gambar background di sini */
+    background: linear-gradient(to bottom, rgba(20, 19, 18, 0.8) 0%, rgba(0, 0, 0, 0.8) 50%), url("../img/home_bg.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
 header.masthead h1 {
     font-size: 2.25rem;
 }
