@@ -6,7 +6,7 @@
 <body id="page-top">
 
   {{-- including navbar --}}
-  @include('layouts.navigation')
+  @include('layouts.navbarcontent')
 
   @yield('content')
 

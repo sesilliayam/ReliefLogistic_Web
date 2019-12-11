@@ -37,4 +37,5 @@
       <br><br>
     <center><a class="btn btn-primary btn-xl js-scroll-trigger" href="{{route('event')}}">Lihat Event Selengkapnya</a></center>
     </div>
+
   </section>

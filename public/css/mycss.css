@@ -10083,3 +10083,7 @@ header.masthead h1 {
 .form-elegant .modal-footer {
     font-weight: 400;
 }
+
+img.bulat {
+    border-radius: 50%;
+}

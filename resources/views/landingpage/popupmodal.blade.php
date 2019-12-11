@@ -66,8 +66,10 @@
       <div class="modal-body mx-4">
         <!--Body-->
         <div class="md-form mb-5">
-          <input type="email" id="Form-email1" class="form-control validate" placeholder="Email"><br>
-          <input type="password" id="Form-pass1" class="form-control validate" placeholder="Password">
+          <input type="text" id="nama" class="form-control validate" placeholder="Nama"><br>
+          <input type="email" id="email" class="form-control validate" placeholder="Email"><br>
+          <input type="password" id="password" class="form-control validate" placeholder="Password"><br>
+          <input type="password" id="confirmpassword" class="form-control validate" placeholder="Konfirmasi Password">
         </div>
         <div class="text-center mb-3">
           <button type="button" class="btn btn-primary btn-xl js-scroll-trigger">Daftar</button>
