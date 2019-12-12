@@ -6217,6 +6217,65 @@ a.close.disabled {
     position: relative;
 }
 
+#myCarousel .thumbnail {
+    margin-bottom: 0;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+    background-image: none !important;
+}
+
+.carousel-control {
+    color: #fff;
+    top: 40%;
+    color: #428BCA;
+    bottom: auto;
+    padding-top: 4px;
+    width: 30px;
+    height: 30px;
+    text-shadow: none;
+    opacity: 1;
+}
+
+.carousel-control:hover {
+    color: #d9534f;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+    background-image: none !important;
+}
+
+.carousel-control.right {
+    left: auto;
+    right: -32px;
+}
+
+.carousel-control.left {
+    right: auto;
+    left: -32px;
+}
+
+.carousel-indicators {
+    bottom: -30px;
+}
+
+.carousel-indicators li {
+    border-radius: 0;
+    width: 10px;
+    height: 10px;
+    background: #ccc;
+    border: 1px solid #ccc;
+}
+
+.carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    background: #3276b1;
+    border-color: #3276b1;
+}
+
 .carousel.pointer-event {
     touch-action: pan-y;
 }
@@ -10090,61 +10149,48 @@ img.bulat {
     width: 200px;
 }
 
-#myCarousel .thumbnail {
-    margin-bottom: 0;
+.MultiCarousel {
+    float: left;
+    overflow: hidden;
+    padding: 15px;
+    width: 100%;
+    position: relative;
 }
 
-.carousel-control.left,
-.carousel-control.right {
-    background-image: none !important;
+.MultiCarousel .MultiCarousel-inner {
+    transition: 1s ease all;
+    float: left;
 }
 
-.carousel-control {
-    color: #fff;
-    top: 40%;
-    color: #428BCA;
-    bottom: auto;
-    padding-top: 4px;
-    width: 30px;
-    height: 30px;
-    text-shadow: none;
-    opacity: 1;
+.MultiCarousel .MultiCarousel-inner .item {
+    float: left;
 }
 
-.carousel-control:hover {
-    color: #d9534f;
+.MultiCarousel .MultiCarousel-inner .item>div {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background: #f1f1f1;
+    color: #666;
 }
 
-.carousel-control.left,
-.carousel-control.right {
-    background-image: none !important;
+.MultiCarousel .leftLst,
+.MultiCarousel .rightLst {
+    position: absolute;
+    border-radius: 50%;
+    top: calc(50% - 20px);
 }
 
-.carousel-control.right {
-    left: auto;
-    right: -32px;
+.MultiCarousel .leftLst {
+    left: 0;
 }
 
-.carousel-control.left {
-    right: auto;
-    left: -32px;
+.MultiCarousel .rightLst {
+    right: 0;
 }
 
-.carousel-indicators {
-    bottom: -30px;
-}
-
-.carousel-indicators li {
-    border-radius: 0;
-    width: 10px;
-    height: 10px;
+.MultiCarousel .leftLst.over,
+.MultiCarousel .rightLst.over {
+    pointer-events: none;
     background: #ccc;
-    border: 1px solid #ccc;
-}
-
-.carousel-indicators .active {
-    width: 12px;
-    height: 12px;
-    background: #3276b1;
-    border-color: #3276b1;
 }
