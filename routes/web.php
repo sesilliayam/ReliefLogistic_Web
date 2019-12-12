@@ -52,3 +52,7 @@ Route::get('/detailevent', function () {
 
 //buat daftarEvent
 Route::resource('daftarevent', 'DaftarEventController');
+
+//login sosial media
+Route::get('auth/{provider}', 'Auth\AuthController@redirectToProvider')->name('sosial.auth');
+Route::get('auth/{provider}/callback', 'Auth\AuthController@handleProviderCallback');

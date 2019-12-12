@@ -17,24 +17,41 @@
       <!--Body-->
       <div class="modal-body mx-4">
         <!--Body-->
+      <form method="POST" action="{{ route('login') }}">
+        @csrf  
         <div class="md-form mb-5">
-          <input type="email" id="Form-email1" class="form-control validate" placeholder="Email"><br>
-          <input type="password" id="Form-pass1" class="form-control validate" placeholder="Password">
+          <!-- <input type="email" id="Form-email1" class="form-control validate" placeholder="Email"><br> -->
+          <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
+
+                                @error('email')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+          <!-- <input type="password" id="Form-pass1" class="form-control validate" placeholder="Password"> -->
+          <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
+
+                                @error('password')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
           <p class="font-small blue-text d-flex justify-content-end">Forgot <a href="#" class="blue-text ml-1">Password?</a></p>
         </div>
 
         <div class="text-center mb-3">
-          <button type="button" class="btn btn-primary btn-xl js-scroll-trigger">Masuk</button>
+          <button type="submit" class="btn btn-primary btn-xl js-scroll-trigger">Masuk</button>
         </div>
+      </form>  
         <p class="font-small dark-grey-text text-right d-flex justify-content-center mb-3 pt-2">Atau masuk dengan:</p>
 
         <div class="row my-3 d-flex justify-content-center">
           <!--Facebook-->
-          <button type="button" class="btn btn-white btn-rounded mr-md-3 z-depth-1a"><i class="fab fa-facebook-f text-center"></i></button>
-          <!--Twitter-->
-          <button type="button" class="btn btn-white btn-rounded mr-md-3 z-depth-1a"><i class="fab fa-twitter"></i></button>
-          <!--Google +-->
-          <button type="button" class="btn btn-white btn-rounded z-depth-1a"><i class="fab fa-google-plus-g"></i></button>
+          <!-- <button href="{{ route('sosial.auth', 'facebook') }}" type="submit" class="btn btn-white btn-rounded mr-md-3 z-depth-1a"><i class="fab fa-facebook-f text-center"></i></button> -->
+          <a href="{{ route('sosial.auth', 'google') }}" class="btn btn-github"><i class="fa fa-github"></i> Google</a>
+          <!--Google --->
+          <!-- <button href="{{ route('sosial.auth', 'google') }}" type="submit" class="btn btn-white btn-rounded z-depth-1a"><i class="fab fa-google-plus-g"></i></button> -->
+          <a href="{{ route('sosial.auth', 'facebook') }}" class="btn btn-facebook"><i class="fa fa-facebook"></i> Facebook</a>
         </div>
       </div>
       <!--Footer-->
@@ -64,16 +81,41 @@
       
       <!--Body-->
       <div class="modal-body mx-4">
+        <form method='POST' action="{{ route('register')}}">
+            @csrf
         <!--Body-->
-        <div class="md-form mb-5">
-          <input type="text" id="nama" class="form-control validate" placeholder="Nama"><br>
-          <input type="email" id="email" class="form-control validate" placeholder="Email"><br>
-          <input type="password" id="password" class="form-control validate" placeholder="Password"><br>
-          <input type="password" id="confirmpassword" class="form-control validate" placeholder="Konfirmasi Password">
-        </div>
-        <div class="text-center mb-3">
-          <button type="button" class="btn btn-primary btn-xl js-scroll-trigger">Daftar</button>
-        </div>
+          <div class="md-form mb-5">
+            <!-- <input type="text" id="nama" class="form-control validate" placeholder="Nama"><br> -->
+            <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus placeholder="Nama">
+
+                                @error('name')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+            <!-- <input type="email" id="email" class="form-control validate" placeholder="Email"><br> -->
+            <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" placeholder="Email">
+
+                                @error('email')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+            <!-- <input type="password" id="password" class="form-control validate" placeholder="Password"><br> -->
+            <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password" placeholder="Password">
+
+                                @error('password')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+            <!-- <input type="password" id="confirmpassword" class="form-control validate" placeholder="Konfirmasi Password"> -->
+            <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password" placeholder="Konfirmasi Password">
+          </div>
+          <div class="text-center mb-3">
+            <button type="submit" class="btn btn-primary btn-xl js-scroll-trigger">Daftar</button>
+          </div>
+        </form>
       </div>
       <!--Footer-->
       <div class="modal-footer mx-5 pt-3 mb-1">
