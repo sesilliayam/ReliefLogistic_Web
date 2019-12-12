@@ -56,3 +56,7 @@
     });
 
 })(jQuery); // End of use strict
+
+$('#myCarousel').carousel({
+    interval: 4000
+});
