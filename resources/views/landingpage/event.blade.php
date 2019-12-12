@@ -93,17 +93,8 @@
             <button class="btn btn-primary rightLst">></button>
         </div>
 	</div>
-	<div class="row">
-	    <div class="col-md-12 text-center">
-	        <br/><br/><br/>
-	        <hr/>
-	        <p>Settings</p>
-	        <p>Change data items for xs,sm,md and lg display items respectively. Ex:data-items="1,3,5,6"</p>
-	        <p>Change data slide for slides per click Ex:data-slide="1"</p>
-	    </div>
-      </div>
       <br><br>
-    {{-- <center><a class="btn btn-primary btn-xl js-scroll-trigger" href="{{route('event.index')}}">Lihat Event Selengkapnya</a></center> --}}
+    {{-- <center><a class="btn btn-primary btn-xl js-scroll-trigger" href="#event">Lihat Event Selengkapnya</a></center> --}}
     </div>
 
   </section>
