@@ -24,7 +24,7 @@
           </li>
           <li class="nav-item">
             {{-- Pop Up Form with Data Toggle and Modal --}}
-            <a class="nav-link js-scroll-trigger" href="#" data-toggle="modal" data-target="#loginModal">Logout</a>
+            <a class="nav-link js-scroll-trigger" href="#" data-toggle="modal" data-target="#loginModal">Keluar</a>
           </li>
         </ul>
       </div>
