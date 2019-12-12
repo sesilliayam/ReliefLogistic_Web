@@ -3,40 +3,40 @@
         <div class="container-fluid p-0">
           <div class="row no-gutters">
             <div class="col-lg-4 col-sm-6">
-              <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
-                <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
+              <a class="portfolio-box" href="{{asset('img/komunitas/i_bandung.jpg')}}">
+                <img class="img-fluid" src="{{asset('img/komunitas/i_bandung.jpg')}}" alt="">
                 <div class="portfolio-box-caption">
                   <div class="project-category text-white-50">
-                    Category
+                    Sahabat Alam Bandung
                   </div>
                   <div class="project-name">
-                    Project Name
+                    Bandung
                   </div>
                 </div>
               </a>
             </div>
             <div class="col-lg-4 col-sm-6">
-              <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
-                <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
+              <a class="portfolio-box" href="{{asset('img/komunitas/i_malang.jpg')}}">
+                <img class="img-fluid" src="{{asset('img/komunitas/i_malang.jpg')}}" alt="">
                 <div class="portfolio-box-caption">
                   <div class="project-category text-white-50">
-                    Category
+                    Sahabat Alam Malang
                   </div>
                   <div class="project-name">
-                    Project Name
+                    Malang
                   </div>
                 </div>
               </a>
             </div>
             <div class="col-lg-4 col-sm-6">
-              <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
-                <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
+              <a class="portfolio-box" href="{{asset('img/komunitas/i_cianjur.jpg')}}">
+                <img class="img-fluid" src="{{asset('img/komunitas/i_cianjur.jpg')}}" alt="">
                 <div class="portfolio-box-caption">
                   <div class="project-category text-white-50">
-                    Category
+                    Sahabat Alam Cianjur
                   </div>
                   <div class="project-name">
-                    Project Name
+                    Cianjur
                   </div>
                 </div>
               </a>
@@ -46,33 +46,33 @@
                 <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
                 <div class="portfolio-box-caption">
                   <div class="project-category text-white-50">
-                    Category
+                    Sahabat Alam Jember
                   </div>
                   <div class="project-name">
-                    Project Name
+                    Jember
                   </div>
                 </div>
               </a>
             </div>
             <div class="col-lg-4 col-sm-6">
-              <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
-                <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
+              <a class="portfolio-box" href="{{asset('img/komunitas/i_klaten.jpg')}}">
+                <img class="img-fluid" src="{{asset('img/komunitas/i_klaten.jpg')}}" alt="">
                 <div class="portfolio-box-caption">
                   <div class="project-category text-white-50">
-                    Category
+                    Sahabat Alam Klaten
                   </div>
                   <div class="project-name">
-                    Project Name
+                    Klaten
                   </div>
                 </div>
               </a>
             </div>
             <div class="col-lg-4 col-sm-6">
-              <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
-                <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
+              <a class="portfolio-box" href="{{asset('img/komunitas/i_jakarta.jpg')}}">
+                <img class="img-fluid" src="{{asset('img/komunitas/i_jakarta.jpg')}}" alt="">
                 <div class="portfolio-box-caption p-3">
                   <div class="project-category text-white-50">
-                    Category
+                    Sahabat Alam Jakarta
                   </div>
                   <div class="project-name">
                     Project Name

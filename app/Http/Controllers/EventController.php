@@ -14,7 +14,7 @@ class EventController extends Controller
      */
     public function index()
     {
-        return view('contents.event.jadwal',compact(['data']));
+        return view('contents.event.event');
     }
 
     /**
@@ -46,7 +46,7 @@ class EventController extends Controller
      */
     public function show(Event $event)
     {
-        //
+        
     }
 
     /**

@@ -1,28 +1,28 @@
  <!-- Services Section -->
  <section class="page-section" id="services">
         <div class="container">
-          <h2 class="text-center mt-0">Kegiatan Kami</h2>
+          <h2 class="text-center mt-0">Sekilas Data</h2>
           <hr class="divider my-4">
           <div class="row">
             <div class="col-lg-3 col-md-6 text-center">
               <div class="mt-5">
-                <i class="fas fa-4x fa-gem text-primary mb-4"></i>
-                <h3 class="h4 mb-2">Sturdy Themes</h3>
-                <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
+                <h1 class="text-primary mb-4">+1000</h1>
+                <h3 class="h4 mb-2">Pohon</h3>
+                <p class="text-muted mb-0">Telah ditanam untuk menghijaukan beberapa lokasi di Indonesia</p>
               </div>
             </div>
             <div class="col-lg-3 col-md-6 text-center">
-              <div class="mt-5">
-                <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i>
-                <h3 class="h4 mb-2">Up to Date</h3>
-                <p class="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
-              </div>
+                <div class="mt-5">
+                    <h1 class="text-primary mb-4">120</h1>
+                    <h3 class="h4 mb-2">Pengguna</h3>
+                    <p class="text-muted mb-0">Yang telah tergabung dan masih aktif menjadi #SahabatAlam</p>
+                  </div>
             </div>
             <div class="col-lg-3 col-md-6 text-center">
               <div class="mt-5">
-                <i class="fas fa-4x fa-globe text-primary mb-4"></i>
-                <h3 class="h4 mb-2">Ready to Publish</h3>
-                <p class="text-muted mb-0">You can use this design as is, or you can make changes!</p>
+                <h1 class="text-primary mb-4">12</h1>
+                <h3 class="h4 mb-2">Komunitas</h3>
+                <p class="text-muted mb-0">Yang secara aktif mengadakan kegiatan #PeduliAlam</p>
               </div>
             </div>
             <div class="col-lg-3 col-md-6 text-center">

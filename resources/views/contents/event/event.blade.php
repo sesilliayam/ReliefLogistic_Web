@@ -10,35 +10,93 @@
                <div class="col-lg-3 col-md-6 text-center">
                  <div class="mt-5">
                    <img src="{{asset('img/event/raw_e1.jpg')}}" class="bulat">
-                   <br><br><h3 class="h4 mb-2">Tahun Baru, Hutan Baru</h3>
-                   <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
+                   <br><br><h3 class="h4 mb-2">Nama Event1</h3>
+                   <p class="text-muted mb-0">Deskripsi event1</p>
+                   <p class="text-muted mb-0">Tanggal Event | Lokasi Event</p>
+                   <p class="text-muted mb-0">Penyelenggara event</p>
+                   <a class="btn btn-primary btn-sm js-scroll-trigger" href="{{route('eventdetail')}}">Lihat</a>
+                   <a class="btn btn-primary btn-sm js-scroll-trigger" href="{{route('daftarevent.index')}}">Daftar</a>
                  </div>
-               </div>
+               </div>                        
                <div class="col-lg-3 col-md-6 text-center">
                  <div class="mt-5">
-                   <i class="fas fa-4x fa-gem text-primary mb-4"></i>
-                   <h3 class="h4 mb-2">Sturdy Themes</h3>
-                   <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
+                   <img src="{{asset('img/event/raw_e1.jpg')}}" class="bulat">
+                   <br><br><h3 class="h4 mb-2">Nama Event1</h3>
+                   <p class="text-muted mb-0">Deskripsi event1</p>
+                   <p class="text-muted mb-0">Tanggal Event | Lokasi Event</p>
+                   <p class="text-muted mb-0">Penyelenggara event</p>
+                   <a class="btn btn-primary btn-sm js-scroll-trigger" href="{{route('eventdetail')}}">Lihat</a>
+                   <a class="btn btn-primary btn-sm js-scroll-trigger" href="{{route('daftarevent.index')}}">Daftar</a>
                  </div>
-               </div>
+               </div>                        
                <div class="col-lg-3 col-md-6 text-center">
                  <div class="mt-5">
-                   <i class="fas fa-4x fa-gem text-primary mb-4"></i>
-                   <h3 class="h4 mb-2">Sturdy Themes</h3>
-                   <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
+                   <img src="{{asset('img/event/raw_e1.jpg')}}" class="bulat">
+                   <br><br><h3 class="h4 mb-2">Nama Event1</h3>
+                   <p class="text-muted mb-0">Deskripsi event1</p>
+                   <p class="text-muted mb-0">Tanggal Event | Lokasi Event</p>
+                   <p class="text-muted mb-0">Penyelenggara event</p>
+                   <a class="btn btn-primary btn-sm js-scroll-trigger" href="{{route('eventdetail')}}">Lihat</a>
+                   <a class="btn btn-primary btn-sm js-scroll-trigger" href="{{route('daftarevent.index')}}">Daftar</a>
                  </div>
-               </div>
+               </div>                        
                <div class="col-lg-3 col-md-6 text-center">
                  <div class="mt-5">
-                   <i class="fas fa-4x fa-gem text-primary mb-4"></i>
-                   <h3 class="h4 mb-2">Sturdy Themes</h3>
-                   <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
+                   <img src="{{asset('img/event/raw_e1.jpg')}}" class="bulat">
+                   <br><br><h3 class="h4 mb-2">Nama Event1</h3>
+                   <p class="text-muted mb-0">Deskripsi event1</p>
+                   <p class="text-muted mb-0">Tanggal Event | Lokasi Event</p>
+                   <p class="text-muted mb-0">Penyelenggara event</p>
+                   <a class="btn btn-primary btn-sm js-scroll-trigger" href="{{route('eventdetail')}}">Lihat</a>
+                   <a class="btn btn-primary btn-sm js-scroll-trigger" href="{{route('daftarevent.index')}}">Daftar</a>
                  </div>
-               </div>
-               
-             </div>
-             <br><br>
-           <center><a class="btn btn-primary btn-xl js-scroll-trigger" href="{{route('event')}}">Lihat Event Selengkapnya</a></center>
+               </div>                        
+               <div class="col-lg-3 col-md-6 text-center">
+                 <div class="mt-5">
+                   <img src="{{asset('img/event/raw_e1.jpg')}}" class="bulat">
+                   <br><br><h3 class="h4 mb-2">Nama Event1</h3>
+                   <p class="text-muted mb-0">Deskripsi event1</p>
+                   <p class="text-muted mb-0">Tanggal Event | Lokasi Event</p>
+                   <p class="text-muted mb-0">Penyelenggara event</p>
+                   <a class="btn btn-primary btn-sm js-scroll-trigger" href="{{route('eventdetail')}}">Lihat</a>
+                   <a class="btn btn-primary btn-sm js-scroll-trigger" href="{{route('daftarevent.index')}}">Daftar</a>
+                 </div>
+               </div>                        
+               <div class="col-lg-3 col-md-6 text-center">
+                 <div class="mt-5">
+                   <img src="{{asset('img/event/raw_e1.jpg')}}" class="bulat">
+                   <br><br><h3 class="h4 mb-2">Nama Event1</h3>
+                   <p class="text-muted mb-0">Deskripsi event1</p>
+                   <p class="text-muted mb-0">Tanggal Event | Lokasi Event</p>
+                   <p class="text-muted mb-0">Penyelenggara event</p>
+                   <a class="btn btn-primary btn-sm js-scroll-trigger" href="{{route('eventdetail')}}">Lihat</a>
+                   <a class="btn btn-primary btn-sm js-scroll-trigger" href="{{route('daftarevent.index')}}">Daftar</a>
+                 </div>
+               </div>                        
+               <div class="col-lg-3 col-md-6 text-center">
+                 <div class="mt-5">
+                   <img src="{{asset('img/event/raw_e1.jpg')}}" class="bulat">
+                   <br><br><h3 class="h4 mb-2">Nama Event1</h3>
+                   <p class="text-muted mb-0">Deskripsi event1</p>
+                   <p class="text-muted mb-0">Tanggal Event | Lokasi Event</p>
+                   <p class="text-muted mb-0">Penyelenggara event</p>
+                   <a class="btn btn-primary btn-sm js-scroll-trigger" href="{{route('eventdetail')}}">Lihat</a>
+                   <a class="btn btn-primary btn-sm js-scroll-trigger" href="{{route('daftarevent.index')}}">Daftar</a>
+                 </div>
+               </div>                        
+               <div class="col-lg-3 col-md-6 text-center">
+                 <div class="mt-5">
+                   <img src="{{asset('img/event/raw_e1.jpg')}}" class="bulat">
+                   <br><br><h3 class="h4 mb-2">Nama Event1</h3>
+                   <p class="text-muted mb-0">Deskripsi event1</p>
+                   <p class="text-muted mb-0">Tanggal Event | Lokasi Event</p>
+                   <p class="text-muted mb-0">Penyelenggara event</p>
+                   <a class="btn btn-primary btn-sm js-scroll-trigger" href="{{route('eventdetail')}}">Lihat</a>
+                   <a class="btn btn-primary btn-sm js-scroll-trigger" href="{{route('daftarevent.index')}}">Daftar</a>
+                 </div>
+               </div>                        
+             </div><br>
+            <center><a href="{{route('landingpage')}}"><p>Kembali ke Halaman Utama</p></a></center>
         </div>
     
       </section>
