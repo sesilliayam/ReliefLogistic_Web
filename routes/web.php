@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('landingpage/landingpage');
 })->name('landingpage');
 
+Route::get('/afterlogin', function () {
+    return view('landingpage/landingpageafterlogin');
+})->name('afterlogin');
+
 Route::get('/login', function () {
     return view('auth/login');
 });
@@ -52,3 +56,7 @@ Route::get('/detailevent', function () {
 
 //buat daftarEvent
 Route::resource('daftarevent', 'DaftarEventController');
+
+//login sosial media
+Route::get('auth/{provider}', 'Auth\AuthController@redirectToProvider')->name('sosial.auth');
+Route::get('auth/{provider}/callback', 'Auth\AuthController@handleProviderCallback');
