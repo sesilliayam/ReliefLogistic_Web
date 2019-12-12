@@ -10149,10 +10149,22 @@ img.bulat {
     width: 200px;
 }
 
+img.semibulat {
+    border-radius: 5%;
+    height: 200px;
+    width: 200px;
+}
+
+img.kotak {
+    /* border-radius: 5%; */
+    height: 200px;
+    width: 300px;
+}
+
 .MultiCarousel {
     float: left;
     overflow: hidden;
-    padding: 15px;
+    padding: 10px;
     width: 100%;
     position: relative;
 }
