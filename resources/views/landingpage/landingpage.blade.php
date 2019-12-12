@@ -32,6 +32,8 @@
   {{-- including JavaScript external resource --}}
   @include('layouts.resource')  
 
+  
+
 </body>
 
 {{-- including pop up modals for login and register --}}
