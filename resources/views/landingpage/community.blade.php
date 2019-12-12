@@ -42,8 +42,8 @@
               </a>
             </div>
             <div class="col-lg-4 col-sm-6">
-              <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
-                <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
+              <a class="portfolio-box" href="{{asset('img/komunitas/i_jember.jpg')}}">
+                <img class="img-fluid" src="{{asset('img/komunitas/i_jember.jpg')}}" alt="">
                 <div class="portfolio-box-caption">
                   <div class="project-category text-white-50">
                     Sahabat Alam Jember
@@ -75,7 +75,7 @@
                     Sahabat Alam Jakarta
                   </div>
                   <div class="project-name">
-                    Project Name
+                    Jakarta
                   </div>
                 </div>
               </a>
